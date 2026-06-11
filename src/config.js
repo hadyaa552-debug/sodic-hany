@@ -12,7 +12,7 @@ export const config = {
   formspreeFormId: 'mqegddew',
 
   // WhatsApp number (without + or spaces for wa.me) — same tel: + whatsapp.site-wide
-  whatsappNumber: '201062911110',
+  whatsappNumber: '201273444483',
 
   // Pre-filled message for wa.me links (Hero, FAB, footer, etc.)
   whatsappDefaultMessage: 'Hello, I would like to know more about SODIC properties.',
@@ -46,13 +46,13 @@ export const config = {
     'Hello, I am interested in Eastvale at Mada City — pricing, availability, and payment plans.',
 
   // Phone for tel: links (with country code)
-  phoneNumber: '+201062911110',
+  phoneNumber: '+201273444483',
 
   // Display (+20…) for footer / accessibility
-  phoneDisplay: '+20 106 291 1110',
+  phoneDisplay: '+201273444483',
 
   /** Local Egyptian format — use where you surface the number in UI */
-  phoneDisplayLocal: '0106 291 1110',
+  phoneDisplayLocal: '01273444483',
   // Optional: add conversion_id + conversion_label from Google Ads for thank-you page trackConversion()
   // Google tag AW-17012763903 is loaded in index.html (gtag.js).
 
