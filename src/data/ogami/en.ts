@@ -1,0 +1,386 @@
+import type { OgamiCopy } from './ar';
+
+export const ogamiEn: OgamiCopy = {
+  meta: {
+    title: 'Ogami · Botanica Town | Ras El Hekma waterfront chalets — 5% down | SODIC',
+    description:
+      'Ogami / Botanica Town by SODIC on Ras El Hekma. Sea-view chalets, fully finished, global Nobu partnership. 5% down payment and installments up to 8 years.',
+    numberLocale: 'en-US',
+  },
+  hero: {
+    imgAlt: 'Ogami — North Coast',
+    badgePulse: true,
+    badge: 'New launch · Botanica Town · Global Nobu partnership',
+    langFlipLabel: 'العربية',
+    langFlipTo: '/ar/ogami',
+    h1Main: 'Ogami',
+    h1Sub: 'Coastal living on Ras El Hekma',
+    lead:
+      'A full seaside community by SODIC — 3 minutes from Ras El Hekma — combining lagoons, a private beach, Nobu Hotel & Dining, and water-view homes.',
+    card1Label: '2-bedroom chalet',
+    card1Price: 'From EGP 16.5M',
+    card1Sq: 'From 120 m²',
+    card2Label: '3-bedroom chalet',
+    card2Price: 'From EGP 18.5M',
+    card2Sq: 'From 140 m²',
+    ctaBook: 'Reserve your chalet',
+    ctaWhatsapp: 'WhatsApp',
+    footnote: 'Only 5% down · Installments up to 8 years · Fully finished & AC included',
+    scrollAria: 'Scroll for more',
+  },
+  urgency: {
+    aria: 'Ogami launch offer',
+    eyebrow: 'Launch offer · Botanica Town',
+    headline: [
+      { k: 'plain', t: 'Book today from only' },
+      { k: 'badge', t: '5%' },
+      { k: 'plain', t: 'down' },
+      { k: 'dot', t: '·' },
+      { k: 'plain', t: 'Installments up to' },
+      { k: 'glow', t: '8 years' },
+    ],
+    sub:
+      '3 flexible payment plans · Fully finished & AC · Phased Botanica Town deliveries.',
+    ctaRegister: 'Register interest',
+    call: 'Call',
+    whatsapp: 'WhatsApp',
+    dir: 'ltr',
+  },
+  stats: {
+    eyebrow: 'Why Ogami?',
+    title: 'Everything iconic about the coast — in one address',
+    subtitle: 'By SODIC — 30+ years of delivery and communities with 30,000+ residents.',
+    items: [
+      { icon: 'map', value: 3, suffix: ' min', label: 'to Ras El Hekma' },
+      { icon: 'waves', value: 120_000, prefix: '+', suffix: ' m²', label: 'fresh-water lagoons' },
+      { icon: 'trees', value: 19, suffix: ' acres', label: 'car-free Botanica Town district' },
+      { icon: 'building', value: 60, suffix: '%', label: 'homes with water views' },
+      {
+        icon: 'award',
+        valueText: 'Nobu',
+        label: 'Hotel, dining & residences inside Ogami',
+      },
+      {
+        icon: 'sparkles',
+        valueText: '100%',
+        label: 'Fully finished + AC & maid\'s room',
+      },
+    ],
+  },
+  location: {
+    eyebrow: 'Location',
+    title: 'On the waterfront — core of New North Coast',
+    lead:
+      'Ogami sits on the international coastal road between Ras El Hekma and Fouka — quick beach access with key destinations reachable in under an hour.',
+    mapSrc: '/sections/ogami/location-map.webp',
+    mapCaption: 'Ogami directly on the international coastal motorway',
+    mapAlt: 'Ogami master location between Ras El Hekma and Fouka',
+    distances: [
+      {
+        icon: 'waves',
+        time: '3 min',
+        label: 'Ras El Hekma',
+        detail: 'The North Coast\'s best-known seafront',
+      },
+      { icon: 'zap', time: '5 min', label: 'June', detail: 'Neighbouring SODIC destination' },
+      {
+        icon: 'sun',
+        time: '35 min',
+        label: 'Sidi Abdel Rahman',
+        detail: 'Marinas, entertainment & Alamein attractions',
+      },
+      {
+        icon: 'plane',
+        time: '55 min',
+        label: 'Alamein International Airport',
+        detail: 'Direct links from Cairo & Europe',
+      },
+    ],
+  },
+  masterplan: {
+    eyebrow: 'Masterplan',
+    title: 'Not one building — a full coastal town',
+    lead:
+      'Ogami is organized into 8 integrated districts — 800+ m private beach, 120,000+ m² lagoons, Nobu destination, and Botanica Town as the current launch phase.',
+    overviewAlt: 'Ogami community masterplan overview',
+    zoneIcons: [
+      'sparkles',
+      'building',
+      'dumbbell',
+      'flower',
+      'library',
+      'utensils',
+      'palmtree',
+      'sun',
+    ],
+    zones: [
+      { num: '01', name: 'Arrival gate', desc: 'Project entry — 24/7 reception & security.' },
+      {
+        num: '02',
+        name: 'Botanica Town',
+        desc: 'Walkable launch phase — sea-view chalets & boutique retail.',
+      },
+      {
+        num: '03',
+        name: 'Sports club & courts',
+        desc: 'Clubhouse and multi-sport outdoor courts.',
+      },
+      {
+        num: '04',
+        name: 'Wellness & yoga',
+        desc: 'Spa, yoga, physiotherapy and relaxation.',
+      },
+      {
+        num: '05',
+        name: 'Cultural district & library',
+        desc: 'Events, workshops and a community library.',
+      },
+      {
+        num: '06',
+        name: 'Clubhouse dining',
+        desc: 'Signature dining overlooking the lagoons.',
+      },
+      {
+        num: '07',
+        name: 'Beach town & retail',
+        desc: 'Seafront promenade with cafés and shops.',
+      },
+      {
+        num: '08',
+        name: 'Nobu hotel, restaurant & residences',
+        desc: 'Global partnership — contemporary Japanese lifestyle on a private beach.',
+      },
+    ],
+    launchEyebrow: 'Launch phase',
+    launchTitle: 'Botanica Town — car-free neighbourhood',
+    launchLead:
+      '19 acres, G+2 penthouses, pedestrian-only streets, shared courtyards, kids pools and boutique retail on the main plaza. 75% two-bed / 25% three-bed — all fully finished with AC and maid\'s room.',
+    launchImgAlt: 'Botanica Town launch within Ogami',
+    launchBullets: [
+      '19 acres of walkable streets',
+      '3 building typologies',
+      'Signature water features',
+      'Splash park',
+      'Boutique retail',
+      'North-oriented homes',
+    ],
+  },
+  amenities: {
+    nobuEyebrow: 'NOBU · A GLOBAL PARTNER',
+    nobuTitle: 'Nobu hotel, restaurant & residences — inside Ogami',
+    nobuLead:
+      'Contemporary Japanese lifestyle with calm luxury: vibrant dining, crafted villas & residences, minutes from your Botanica Town chalet.',
+    nobuImgAlt: 'Nobu hotel and restaurant at Ogami',
+    sectionEyebrow: 'Amenities',
+    sectionTitle: 'Daily life — a short walk away',
+    sectionLead:
+      'A living town: lagoons, sports, wellness, cafés, supermarket, kids facilities and everyday services without leaving the community.',
+    labels: [
+      'Fresh-water lagoons',
+      'Tiered private beach',
+      'Wellness & yoga hub',
+      'Sports club & courts',
+      'Kids splash park',
+      'BBQ gardens',
+      'Waterfront cafés',
+      'Bakery & dining',
+      'Supermarket & boutiques',
+      'Pharmacy & clinics',
+      'Parks & walking paths',
+      'Nobu restaurant',
+      'Bike & golf-cart paths',
+      'Cultural zone & library',
+    ],
+  },
+  units: {
+    eyebrow: 'Homes',
+    title: 'Three layouts for every lifestyle',
+    lead:
+      'Every home is fully finished and air-conditioned with a maid\'s room. G+2 buildings with cascading terraces to protect open views.',
+    sideNote: 'Pricing from 2026 — subject to update.\nPayment plans up to 8 years.',
+    disclaimer: '* All visuals are illustrative and may change.',
+    book: 'Get the brochure',
+    inquire: 'Enquire',
+    paymentNote: '5% down · up to 8-year installments',
+    priceGridDir: 'ltr',
+    items: [
+      {
+        id: '2-bedroom',
+        badge: 'Most popular',
+        title: '2-bedroom chalet',
+        subtitle: 'Building Type 01 — Modern Living',
+        image: '/sections/ogami/building-render-2.webp',
+        priceLabel: 'Total from',
+        priceValue: 'EGP 16,500,000',
+        dpLabel: '5% down',
+        dpValue: 'EGP 825,000',
+        highlights: ['From 120 m² enclosed + terraces', '2 beds + maid\'s room', 'Cascading terraces & garden'],
+        features: ['Fully finished + AC', '5 homes per building (G+2)', 'Lagoon or garden view', 'Private entrance per unit'],
+        waPrefill:
+          'Hello, I am interested in a 2-bedroom chalet in Ogami / Botanica Town. Please share pricing and payment plans.',
+      },
+      {
+        id: '3-bedroom',
+        badge: 'Family choice',
+        title: '3-bedroom chalet',
+        subtitle: 'Building Type 02 — Spacious Family',
+        image: '/sections/ogami/building-render-1.webp',
+        priceLabel: 'Total from',
+        priceValue: 'EGP 18,500,000',
+        dpLabel: '5% down',
+        dpValue: 'EGP 925,000',
+        highlights: ['From 140 m² enclosed + terraces', '3 beds + maid\'s room', 'Larger terraces & garden'],
+        features: ['Fully finished + AC', '8 homes per building', 'Clear living zones', 'Flexible family layout'],
+        waPrefill:
+          'Hello, I am interested in a 3-bedroom chalet in Ogami / Botanica Town. Please share pricing and payment plans.',
+      },
+      {
+        id: 'double-view',
+        badge: 'Double View',
+        title: 'Panoramic 2-bedroom',
+        subtitle: 'Building Type 03 — Panoramic Outlooks',
+        image: '/sections/ogami/building-render-3.webp',
+        priceLabel: 'Total price',
+        priceValue: 'Price on request',
+        dpLabel: '5% down',
+        dpValue: 'View-dependent',
+        highlights: ['109–124 m² + terrace', '2 beds + maid\'s room', 'Dual-aspect panoramas'],
+        features: ['Fully finished + AC', '6 homes per building', 'Signature double views', 'All-day natural light'],
+        waPrefill:
+          'Hello, I am interested in the Double View chalet in Ogami / Botanica Town. Please share views and pricing.',
+      },
+    ],
+  },
+  payment: {
+    eyebrow: 'Payment plans',
+    title: 'Three flexible plans — start from 5% down',
+    lead: 'Pick what fits your cash flow — our team will tailor an installment table to your unit.',
+    downLabel: 'Down payment',
+    durationLabel: 'Term',
+    icons: ['trend', 'calendar', 'clock'],
+    ctaPlan: 'Reserve on this plan',
+    ctaWa: 'Ask us',
+    footerLead:
+      'Not sure which plan fits? Message us on WhatsApp for a detailed schedule for a specific unit.',
+    footerCta: 'Get a tailored offer',
+    plans: [
+      {
+        id: 'progressive',
+        title: 'Progressive 8 years',
+        badge: 'Lightest early years',
+        dp: '5%',
+        duration: '8 years',
+        desc:
+          '5% down with installments that ramp up across 8 years — ideal when you expect rising income.',
+        waPrefill:
+          'Hello, I am interested in the progressive 8-year plan for Ogami / Botanica Town. Could you send a schedule?',
+      },
+      {
+        id: 'standard',
+        title: 'Standard 8 years',
+        badge: 'Most chosen',
+        dp: '5%',
+        duration: '8 years',
+        desc:
+          '5% down with equal installments for 8 years — the classic predictable structure.',
+        waPrefill:
+          'Hello, I am interested in the standard 8-year plan for Ogami / Botanica Town. Could you send a schedule?',
+      },
+      {
+        id: 'grace',
+        title: '7 years + grace period',
+        badge: 'Deferred installments',
+        dp: '5%',
+        duration: '7 years',
+        desc:
+          '5% down with a grace period before installments begin — helpful if you want runway before repayments.',
+        waPrefill:
+          'Hello, I am interested in the 7-year plan with grace for Ogami / Botanica Town. What is the grace length?',
+      },
+    ],
+    planCtaReverse: true,
+  },
+  gallery: {
+    eyebrow: 'Gallery',
+    title: 'See Ogami the way it feels on the sea',
+    lead: 'Official SODIC renders — capturing the spirit of new coastal life on Ras El Hekma.',
+    slides: [
+      { id: 'lagoon', src: '/sections/ogami/lagoon.webp', caption: '+120,000 m² swimming lagoons at the heart of the community' },
+      { id: 'render-1', src: '/sections/ogami/building-render-1.webp', caption: 'Retail & cafés on the main plaza' },
+      { id: 'render-2', src: '/sections/ogami/building-render-2.webp', caption: 'G+2 penthouse buildings with cascading terraces' },
+      { id: 'render-3', src: '/sections/ogami/building-render-3.webp', caption: 'Private gardens & pools clustered per block' },
+      { id: 'concept', src: '/sections/ogami/concept-collage.webp', caption: 'Calm coastal living with a contemporary touch' },
+      { id: 'interiors', src: '/sections/ogami/interiors.webp', caption: 'Highly crafted interior palettes' },
+      { id: 'materials', src: '/sections/ogami/materials.webp', caption: 'Natural materials with imported finishes' },
+    ],
+  },
+  lead: {
+    eyebrow: 'Register interest',
+    title: 'Secure your Ogami chalet today',
+    lead:
+      'Leave your details and sales will reply within 24 hours with pricing, availability and tailored payment scenarios.',
+    bullets: [
+      'Response within 24 hours from a SODIC sales advisor',
+      'Showroom visits — Sheikh Zayed or New Cairo',
+      'Tailored quotations & flexible installments',
+      'Your data stays private — no spam.',
+    ],
+    offices:
+      'Sales offices · Sheikh Zayed: km 38 Desert Road · New Cairo: 90 South Street.',
+    formTitle: 'Get the brochure',
+    formSubtitle: 'We will respond within 24 hours.',
+    submit: 'Click here to get the brochure from our sales team',
+    leadFormLocale: 'en',
+  },
+  faq: {
+    eyebrow: 'FAQ',
+    title: 'Answers before you buy',
+    foot: 'Something else on your mind? WhatsApp sales — replies in minutes.',
+    askWa: 'WhatsApp sales',
+    items: [
+      {
+        q: 'Where exactly is Ogami on the North Coast?',
+        a: 'On the coastal motorway between Ras El Hekma and Fouka — 3 minutes to Ras El Hekma, 5 to June, 35 to Sidi Abdel Rahman, 55 to Alamein International Airport — with direct beach access and 800 m of private shoreline.',
+      },
+      {
+        q: 'How is Ogami different from Botanica Town?',
+        a: 'Ogami is the full eight-district resort town (Nobu beach, clubhouse, wellness, cultural hub, retail, etc.). Botanica Town is the walkable launch phase — 19 acres of car-free chalets priced from about EGP 16.5M fully finished.',
+      },
+      {
+        q: 'Are units shell or turnkey?',
+        a: 'Botanica Town homes deliver fully finished with installed AC plus a maid\'s room and cascading terraces (11–56 m² depending on layout). Move-in ready without shell upgrade costs.',
+      },
+      {
+        q: 'What payment plans exist?',
+        a: 'Three SODIC templates: 5% + progressive 8 years, 5% + equal 8 years, or 5% + 7 years with a grace period before installments. Teams can customize per unit.',
+      },
+      {
+        q: 'Is Nobu really inside Ogami?',
+        a: 'Yes — Nobu hotel, restaurant and branded residences are integrated into the masterplan, not a distant neighbour. Residents access Nobu services and the connected beach experience.',
+      },
+    ],
+  },
+  booking: {
+    sessionKey: 'ogami_bp_en_v2',
+    waPrefill:
+      'Hello, I want to secure my place on the Ogami / Botanica Town masterplan before public release. Please share details and pricing.',
+    closeOverlayAria: 'Close dialog',
+    closeBtnAria: 'Close',
+    dir: 'ltr',
+    topLine: 'Botanica Town · Early launch window',
+    title: 'Reserve your masterplan slot before full release',
+    lead:
+      'Inventory is limited and priority is first come, first served. Choose how you want us to reach you — we will follow up with pricing and plans.',
+    perk1: 'Only 5% down',
+    perk2: 'Up to 8-year installments',
+    perk3: 'Fully finished & AC included',
+    callCta: 'Call sales now',
+    fastReply: 'Fastest reply',
+    waCta: 'Message on WhatsApp',
+    waBadge: 'Instant chat',
+    formCta: 'Reserve your spot on the masterplan before everyone else',
+    formBadge: 'Form below',
+    trust:
+      'Your information is confidential and never resold — 30+ years of SODIC delivery keeps us accountable.',
+  },
+};

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://modonraselhekma.vercel.app/sitemap.xml

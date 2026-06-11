@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="preload"
+      as="image"
+      type="image/webp"
+      href="/sections/ogami/hero-640.webp"
+      imagesrcset="/sections/ogami/hero-640.webp 640w, /sections/ogami/hero-1024.webp 1024w, /sections/ogami/hero-1600.webp 1600w"
+      imagesizes="100vw"
+      media="(max-width: 768px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      type="image/webp"
+      href="/sections/ogami/hero-1600.webp"
+      imagesrcset="/sections/ogami/hero-640.webp 640w, /sections/ogami/hero-1024.webp 1024w, /sections/ogami/hero-1600.webp 1600w"
+      imagesizes="100vw"
+      media="(min-width: 769px)"
+      fetchpriority="high"
+    />
+    <script>
+      (function () {
+        var p = location.pathname;
+        if (p.indexOf('/ogami') !== -1) return;
+        var base =
+          p.indexOf('/eastvale') !== -1
+              ? '/sections/eastvale/raw/apartments-page-01'
+              : '/sections/east/sodic-cms/hero-birdseye';
+        var link = document.createElement('link');
+        link.rel = 'preload';
+        link.as = 'image';
+        link.type = 'image/webp';
+        var mobile = window.matchMedia && window.matchMedia('(max-width: 768px)').matches;
+        link.href = mobile ? base + '-640.webp' : base + '-1600.webp';
+        link.setAttribute('imagesrcset', base + '-640.webp 640w, ' + base + '-1024.webp 1024w, ' + base + '-1600.webp 1600w');
+        link.setAttribute('imagesizes', '100vw');
+        link.setAttribute('fetchpriority', 'high');
+        document.head.appendChild(link);
+      })();
+    </script>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SODIC premium real estate destinations crafted for modern coastal living." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script>
+      (function () {
+        var isArabicRoute = location.pathname.indexOf('/ar') === 0;
+        if (isArabicRoute) return;
+        var href = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@600;700&display=optional';
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = href;
+        link.media = 'print';
+        link.onload = function () {
+          this.media = 'all';
+        };
+        document.head.appendChild(link);
+      })();
+    </script>
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;600;700&family=Montserrat:wght@600;700&display=optional"
+        rel="stylesheet"
+      />
+    </noscript>
+    <title>SODIC | Premium Living</title>
+    <meta property="og:title" content="SODIC | Premium Living" />
+    <meta property="og:description" content="Premium real estate opportunities tailored for modern living." />
+    <meta property="og:image" content="https://sodicoffers.com/sections/east/sodic-cms/hero-birdseye.webp" />
+    <meta property="og:type" content="website" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17012763903"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+      gtag('js', new Date());
+
+      gtag('config', 'AW-17012763903');
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "x4165snmsd");
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=3532545530231926&ev=PageView&noscript=1"
+        alt=""
+    /></noscript>
+    <script>
+      function loadWhenUserEngages(task, timeout) {
+        var done = false;
+        var cleanup = function () {};
+        var run = function () {
+          if (done) return;
+          done = true;
+          cleanup();
+          task();
+        };
+
+        var events = ['pointerdown', 'keydown', 'touchstart', 'scroll'];
+        var onEvent = function () {
+          run();
+        };
+        cleanup = function () {
+          events.forEach(function (e) {
+            window.removeEventListener(e, onEvent, { passive: true });
+          });
+        };
+        events.forEach(function (e) {
+          window.addEventListener(e, onEvent, { passive: true, once: true });
+        });
+
+        window.setTimeout(run, timeout);
+      }
+
+      function loadMetaPixelDeferred() {
+        !(function (f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function () {
+            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = '2.0';
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s);
+        })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '3532545530231926');
+        fbq('track', 'PageView');
+      }
+      loadWhenUserEngages(loadMetaPixelDeferred, 15000);
+    </script>
+  </body>
+</html>
